@@ -12,67 +12,78 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
-        "name": "Java",
+        "name": "Javascript",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
       },
       {
-        "name": "Angular",
+        "name": "Typescript",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
       },
       {
-        "name": "React",
+        "name": "Git",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
       },
       {
-        "name": "Mongodb",
+        "name": "GitHub",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
       },
       {
-        "name": "Postgresql",
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+      },
+      {
+        "name": "HTML",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
       "Empatia",
-      "Liderança",
+      "Facilidade com Tarefas Práticas",
+      "Prestatividade",
       "Trabalho em equipe",
       "Flexibilidade",
+      "Comunicação",
       "Organização"
     ]
   },
   "languages": [
     "Português BR",
     "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Espanhol (básico)",
+    "Esperanto (iniciante)"
   ],
   "portfolio": [
     {
       "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "url": "https://github.com/PedroJuri/js-developer-pokedex",
       "github": true
     },
     {
       "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "url": "https://github.com/PedroJuri/js-developer-portfolio",
+      "github": true
+    },
+    {
+      "name": "Projetos que me orgulho",
+      "url": "https://github.com/PedroJuri/Projetos-orgulhadores",
+      "github": true
+    },
+    {
+      "name": "Bikcraft - Origamid (1.0)",
+      "url": "https://github.com/PedroJuri/Bikcraft",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "Gerente de Sucesso do Cliente | UI Designer / Cinndi",
+      "period": "2021 - 2023",
+      "description": "Utilizei de ofícios em CS (Customer Sucess), gerenciando a parte de clientes e auxiliando em tempo vago na parte de suporte da organização e opero também como desenvolvedor front-end e ui designer para que atualizações futuras sejam acrescidas dentro da organização.\n\nPor um determinado tempo, foi também utilizadas das ferramentas Figma e Visual Studio Code para desenvolver um site baseado em um cardápio digital, este do qual fiz a base do projeto e assim pude implementar o mesmo até ser concluído."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-    },
-    {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "Designer Gráfico | Assistente Administrativo / Set Solar",
+      "period": "2022 - 2022",
+      "description": "No ofício que desenvolvi (em tempo de experiência), além de desenvolvimento de templates, mockups e artes gráficas em si dentre o direcionamento de novos clientes e auxílio de clientes já existentes, auxíliava em parte das vendas presenciais e online, parte administrativa da organização, por meio de desenvolvimento de gráficos e planilhas em Excel; apresentações sobre colaboradores em PowerPoint; listas e desenvolvimento de material em Word."
     }
   ]
 }
