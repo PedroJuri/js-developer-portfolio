@@ -1,42 +1,42 @@
-.header {
+.header{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 
-.header::after {
+.header::after{
     content: '';
     display: inline-block;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/header.svg');
+    background-image: url(../img/icons/menu.svg);
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
 }
 
-.header .photo {
+.header .photo{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
-.header .title {
+.header h1.title{
     font-family: 'Neue Machina';
     text-align: center;
 }
 
-.information {
+.info{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
 }
 
-.information p {
+.info p{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,7 +44,11 @@
     font-size: 1.125rem;
 }
 
-.information p::before {
+.info p a{
+    font-size: 1.125rem;
+}
+
+.info p::before{
     content: '';
     display: inline-block;
     width: 1rem;
@@ -54,43 +58,40 @@
     margin-right: .5rem;
 }
 
-.information .job::before {
+.info .job::before{
     background-image: url('../img/icons/job.svg');
 }
 
-.information .location::before {
-    background-image: url('../img/icons/location.svg');
-}
-
-.information .email::before {
-    background-image: url('../img/icons/email.svg');
-}
-
-.information .phone::before {
+.info .phone::before{
     background-image: url('../img/icons/phone.svg');
 }
 
-@media only screen and (min-width: 768px) {
-    .header {
+.info .email::before{
+    background-image: url('../img/icons/email.svg');
+}
+
+.info .location::before{
+    background-image: url('../img/icons/location.svg');
+}
+
+@media only screen and (min-width: 768px){
+    .header{
         display: grid;
-        grid-template-areas:
-            "photo title"
-            "photo information"
-        ;
+        grid-template-areas: "photo title" "photo info";
     }
 
-    .header .photo {
+    .header .photo{
         grid-area: photo;
         margin: 0 auto;
     }
 
-    .header .title {
-        grid-area: title;
+    .header h1.title{
         text-align: start;
+        grid-area: title;
         max-width: 210px;
     }
 
-    .header .information {
-        grid-area: information;
+    .header .info{
+        grid-area: info;
     }
 }
